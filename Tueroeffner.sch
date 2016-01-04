@@ -14486,27 +14486,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796"/>
 </package>
 <package name="SCREWTERMINAL-3.5MM-4">
-<wire x1="-2.3" y1="3.4" x2="12.8" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="12.8" y1="3.4" x2="12.8" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="12.8" y1="-2.8" x2="12.8" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="12.8" y1="-3.6" x2="-2.3" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="3.4" x2="17.8" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="17.8" y1="3.4" x2="17.8" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="17.8" y1="-2.8" x2="17.8" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="17.8" y1="-3.6" x2="-2.3" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="-2.3" y1="-3.6" x2="-2.3" y2="-2.8" width="0.2032" layer="21"/>
 <wire x1="-2.3" y1="-2.8" x2="-2.3" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="12.8" y1="-2.8" x2="-2.3" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="17.8" y1="-2.8" x2="-2.3" y2="-2.8" width="0.2032" layer="21"/>
 <wire x1="-2.3" y1="-1.35" x2="-2.7" y2="-1.35" width="0.2032" layer="51"/>
 <wire x1="-2.7" y1="-1.35" x2="-2.7" y2="-2.35" width="0.2032" layer="51"/>
 <wire x1="-2.7" y1="-2.35" x2="-2.3" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="12.8" y1="3.15" x2="13.2" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="13.2" y1="3.15" x2="13.2" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="13.2" y1="2.15" x2="12.8" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="17.8" y1="3.15" x2="18.2" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="18.2" y1="3.15" x2="18.2" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="18.2" y1="2.15" x2="17.8" y2="2.15" width="0.2032" layer="51"/>
 <circle x="0" y="0" radius="0.425" width="0.001" layer="51"/>
-<circle x="3.5" y="0" radius="0.425" width="0.001" layer="51"/>
-<circle x="7" y="0" radius="0.425" width="0.001" layer="51"/>
-<circle x="10.5" y="0" radius="0.425" width="0.001" layer="51"/>
+<circle x="5" y="0" radius="0.425" width="0.001" layer="51"/>
+<circle x="10" y="0" radius="0.425" width="0.001" layer="51"/>
+<circle x="15" y="0" radius="0.425" width="0.001" layer="51"/>
 <pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<pad name="3" x="7" y="0" drill="1.2" diameter="2.032"/>
-<pad name="4" x="10.5" y="0" drill="1.2" diameter="2.032"/>
+<pad name="2" x="5" y="0" drill="1.2" diameter="2.032"/>
+<pad name="3" x="10" y="0" drill="1.2" diameter="2.032"/>
+<pad name="4" x="15" y="0" drill="1.2" diameter="2.032"/>
 <text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
@@ -23041,18 +23041,15 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 <part name="U$1" library="adafruit" deviceset="EVQQ2" device="" value="T1"/>
 <part name="B1" library="rectifier" deviceset="RECTIFIER-" device="S40"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="175TMP-0810" value="470µF 16V"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M04" device="SCREW"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="SCREW"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="M2012" value="100"/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="M2012" value="100"/>
@@ -23138,10 +23135,6 @@ Spannungsteiler </text>
 <attribute name="NAME" x="257.5814" y="-6.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="262.382" y="-6.35" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R7" gate="G$1" x="281.94" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="280.4414" y="-6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="285.242" y="-6.35" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="Q3" gate="G$1" x="269.24" y="5.08" smashed="yes">
 <attribute name="NAME" x="270.51" y="7.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="7.62" size="1.778" layer="96"/>
@@ -23157,10 +23150,6 @@ Spannungsteiler </text>
 <attribute name="NAME" x="257.5814" y="24.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="262.382" y="24.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="281.94" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="280.4414" y="24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="285.242" y="24.13" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="Q2" gate="G$1" x="269.24" y="35.56" smashed="yes">
 <attribute name="NAME" x="270.51" y="38.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="38.1" size="1.778" layer="96"/>
@@ -23171,9 +23160,6 @@ Spannungsteiler </text>
 </instance>
 <instance part="GND8" gate="1" x="259.08" y="17.78" smashed="yes">
 <attribute name="VALUE" x="256.54" y="15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="GND9" gate="1" x="281.94" y="17.78" smashed="yes">
-<attribute name="VALUE" x="279.4" y="15.24" size="1.778" layer="96"/>
 </instance>
 <instance part="GND10" gate="1" x="259.08" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="256.54" y="-17.78" size="1.778" layer="96"/>
@@ -23298,8 +23284,6 @@ Spannungsteiler </text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="281.94" y1="-12.7" x2="281.94" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="281.94" y="-10.16"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="-7.62" x2="281.94" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="281.94" y="-10.16"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -23318,11 +23302,6 @@ Spannungsteiler </text>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="20.32" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="20.32" x2="281.94" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -23634,12 +23613,8 @@ Spannungsteiler </text>
 <wire x1="241.3" y1="33.02" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="5.08" x2="281.94" y2="5.08" width="0.1524" layer="91"/>
 <label x="279.4" y="5.08" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="2.54" x2="281.94" y2="5.08" width="0.1524" layer="91"/>
-<junction x="281.94" y="5.08"/>
+<wire x1="284.48" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 <segment>
@@ -23668,12 +23643,8 @@ Spannungsteiler </text>
 <pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="35.56" x2="281.94" y2="35.56" width="0.1524" layer="91"/>
 <label x="279.4" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="33.02" x2="281.94" y2="35.56" width="0.1524" layer="91"/>
-<junction x="281.94" y="35.56"/>
+<wire x1="284.48" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
 </segment>
 </net>
