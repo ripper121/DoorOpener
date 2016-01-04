@@ -23744,8 +23744,6 @@ Spannungsteiler </text>
 <approved hash="102,1,116.84,38.1,VCC,VCC-3.3V,,,,"/>
 <approved hash="102,1,254,83.82,VCC,VCC-3.3V,,,,"/>
 <approved hash="102,1,43.18,50.8,VCC,DC_5-12V,,,,"/>
-<approved hash="102,1,279.4,48.26,VCC,DC_5-12V,,,,"/>
-<approved hash="201,1,279.4,48.26,VCC,VCC-3.3V\, DC_5-12V,,,,"/>
 <approved hash="201,1,43.18,50.8,VCC,VCC-3.3V\, DC_5-12V,,,,"/>
 <approved hash="201,1,254,83.82,VCC,VCC-3.3V\, DC_5-12V,,,,"/>
 <approved hash="201,1,116.84,38.1,VCC,VCC-3.3V\, DC_5-12V,,,,"/>
@@ -23764,8 +23762,6 @@ Spannungsteiler </text>
 <approved hash="208,1,116.84,38.1,VCC-3.3V,sup,,,,"/>
 <approved hash="208,1,152.4,22.86,VCC-3.3V,sup,,,,"/>
 <approved hash="208,1,254,83.82,VCC-3.3V,sup,,,,"/>
-<approved hash="113,1,2.49767,25.5947,SV1,,,,,"/>
-<approved hash="113,1,350.562,30.2853,SV2,,,,,"/>
 <approved hash="113,1,162.56,74.7353,SV3,,,,,"/>
 <approved hash="113,1,119.702,69.85,LED4,,,,,"/>
 </errors>
