@@ -1,0 +1,32 @@
+Stückliste exportiert aus C:/Users/sts/Documents/eagle/Tueroeffner/Tueroeffner.sch am 09.12.2015 11:36
+
+Qty Value          Device                    Package               Parts           Description                                                          
+3                  LED5MM                    LED5MM                D5, D6, D7      LEDs                                                                 
+1                  LEDCHIP-LED0805           CHIP-LED0805          LED4            LED                                                                  
+2                  M04SCREW                  SCREWTERMINAL-3.5MM-4 JP2, JP3        Header 4                                                             
+1                  MA05-2                    MA05-2                SV3             PIN HEADER                                                           
+1   0.1µF          C-EUC0805                 C0805                 C5              CAPACITOR, European symbol                                           
+1   1              R-EU_M2012                M2012                 R2              RESISTOR, European symbol                                            
+4   10K            R-EU_M2012                M2012                 R3, R6, R7, R11 RESISTOR, European symbol                                            
+1   10µF           C-EUC0805                 C0805                 C2              CAPACITOR, European symbol                                           
+2   10µF           CC2012                    C2012                 C3, C6          CAPACITOR, European symbol                                           
+1   15pF           CC2012                    C2012                 C4              CAPACITOR, European symbol                                           
+2   2N7002CK       MOSFET-NCHANNELBSS123LT1G SOT23-3               Q1, Q3          Common NMOSFET Parts                                                 
+1   332-02         332-02                    332-02                X1              2 Pin - 2mm Dual Row                                                 
+1   4.7K           R-EU_M0805                M0805                 R1              RESISTOR, European symbol                                            
+2   47             R-EU_M2012                M2012                 R4, R5          RESISTOR, European symbol                                            
+1   470µF 16V      CPOL-EU175TMP-0810        175TMP-0810           C7              POLARIZED CAPACITOR, European symbol                                 
+3   68             R-EU_M2012                M2012                 R8, R9, R10     RESISTOR, European symbol                                            
+1   82             R-EU_M2012                M2012                 R32             RESISTOR, European symbol                                            
+1   EC2-12SNU      TXD2-2M-12V               TXD2                  K1              TX Relais NAiS                                                       
+1   LDR            R-EU_V526-0               V526-0                R12             RESISTOR, European symbol                                            
+1   M25PE20        25LC080SN                 SO-08                 IC3             Serial EEPROM 4K/ 8K , SPI bus                                       
+1   NCP1117ST33T3G REG1117                   SOT223                IC1             800mA and 1A Low Dropout (LDO) Positive Regulator                    
+3   PMBD914        D-A1-C3                   SOT23                 D2, D3, D4      DIODE                                                                
+1   RECTIFIER-S40  RECTIFIER-S40             TO-269AA              B1              Rectifier                                                            
+1   SMAJ20A        TVSSMA                    SMA-DIODE             D1              Transient voltage suppressor- prevents ESD on inputs.                
+1   T1             EVQQ2                     EVQ-Q2                U$1             SMT 6mm switch, EVQQ2 series                                         
+1   TINY13V-10PU   TINY13V-10PU              DIL08                 IC2             8-bit AVR Microcontroller with 1K Bytes In-System Programmable Flash 
+1   Z-Antenna      M01PTH                    1X01                  JP1             Header 1                                                             
+1   ZM5202         ZM5202ZM5202_STERN        ZM5202_STERN          U$5             ZM5202                                                               
+2   unpopulated    LL2012C                   L2012C                L2, L3          INDUCTOR, European symbol                                            
