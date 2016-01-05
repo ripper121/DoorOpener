@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -13658,35 +13672,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="3.5" y1="3" x2="3.5" y2="2" width="0.2032" layer="21"/>
 <wire x1="3.5" y1="-3" x2="3.5" y2="-2" width="0.2032" layer="21"/>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO-92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
-<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="DPAK">
 <wire x1="3.2766" y1="2.4654" x2="3.277" y2="-3.729" width="0.2032" layer="21"/>
 <wire x1="3.277" y1="-3.729" x2="-3.277" y2="-3.729" width="0.2032" layer="21"/>
@@ -13795,6 +13780,35 @@ High-power, low thermal resistance package.</description>
 <pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-2.794" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.302" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TO-92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
+<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="TO-263/D2PAK">
 <wire x1="5" y1="-1" x2="5" y2="-3.4" width="0.2032" layer="21"/>
@@ -20078,10 +20092,8 @@ Source: http://www.osram.convergy.de/</description>
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TXD2">
-<description>&lt;b&gt;HIGH INSULATION RELAYS&lt;/b&gt; NAiS&lt;p&gt;
-Conforming to the supplementary insulation class of EN Standards (EN41003)&lt;br&gt;
-Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf</description>
+<package name="TX2-L2">
+<description>&lt;b&gt;2 AMP. HIGH CAPACITY RELAY&lt;/b&gt; NAiS&lt;p&gt;WITH HIGH SURGE VOLTAGE &amp; HIGH BREAKDOWN VOLTAGE&lt;br&gt;2 coil latching&lt;br&gt;Source: http://www.mew-europe.com/..  en_ds_61022_0001.pdf</description>
 <wire x1="-7.4" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="21"/>
 <wire x1="7.4" y1="3.6" x2="7.4" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="7.4" y1="-3.6" x2="-7.4" y2="-3.6" width="0.2032" layer="21"/>
@@ -20094,106 +20106,85 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf</description>
 <pad name="9" x="1.27" y="2.54" drill="1"/>
 <pad name="10" x="-1.27" y="2.54" drill="1"/>
 <pad name="12" x="-6.35" y="2.54" drill="1"/>
+<pad name="6" x="6.35" y="-2.54" drill="1"/>
+<pad name="7" x="6.35" y="2.54" drill="1"/>
 <text x="-7.62" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-6.985" y1="-1.27" x2="-6.35" y2="1.27" layer="21"/>
 </package>
-<package name="TXD2SA">
-<description>&lt;b&gt;HIGH INSULATION RELAYS&lt;/b&gt; NAiS&lt;p&gt;
-Conforming to the supplementary insulation class of EN Standards (EN41003)&lt;br&gt;
-Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf</description>
+<package name="TX2SA-L2">
+<description>&lt;b&gt;2 AMP. HIGH CAPACITY RELAY&lt;/b&gt; NAiS&lt;p&gt;WITH HIGH SURGE VOLTAGE &amp; HIGH BREAKDOWN VOLTAGE&lt;br&gt;2 coil latching&lt;br&gt;Source: http://www.mew-europe.com/..  en_ds_61022_0001.pdf</description>
 <wire x1="-7.4" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="51"/>
 <wire x1="7.4" y1="3.6" x2="7.4" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="7.4" y1="-3.6" x2="-7.4" y2="-3.6" width="0.2032" layer="51"/>
 <wire x1="-7.4" y1="-3.6" x2="-7.4" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-5.495" y1="3.6" x2="-2.125" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="7.4" y1="-3.6" x2="5.3" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.3" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-2.125" y1="-3.6" x2="-5.495" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-2.76" y1="-3.6" x2="-4.86" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-4.86" y1="3.6" x2="-2.76" y2="3.6" width="0.2032" layer="21"/>
 <smd name="1" x="-6.35" y="-3.62" dx="1" dy="3.16" layer="1"/>
 <smd name="3" x="-1.27" y="-3.62" dx="1" dy="3.16" layer="1"/>
 <smd name="4" x="1.27" y="-3.62" dx="1" dy="3.16" layer="1"/>
 <smd name="5" x="3.81" y="-3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="8" x="3.81" y="3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="9" x="1.27" y="3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="10" x="-1.27" y="3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="12" x="-6.35" y="3.62" dx="1" dy="3.16" layer="1"/>
-<text x="-7.62" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-6.985" y1="-1.27" x2="-6.35" y2="1.27" layer="21"/>
+<smd name="8" x="3.81" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="9" x="1.27" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="10" x="-1.27" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="12" x="-6.35" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="6" x="6.35" y="-3.62" dx="1" dy="3.16" layer="1"/>
+<smd name="7" x="6.35" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<text x="-7.62" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.715" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.985" y1="-1.905" x2="-6.35" y2="1.905" layer="21"/>
 <rectangle x1="-7.5" y1="-0.8" x2="-7.2" y2="0.8" layer="35"/>
 <rectangle x1="7.2" y1="-0.8" x2="7.5" y2="0.8" layer="35" rot="R180"/>
 </package>
-<package name="TXD2SL">
-<description>&lt;b&gt;HIGH INSULATION RELAYS&lt;/b&gt; NAiS&lt;p&gt;
-Conforming to the supplementary insulation class of EN Standards (EN41003)&lt;br&gt;
-Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf</description>
+<package name="TX2SL-L2">
+<description>&lt;b&gt;2 AMP. HIGH CAPACITY RELAY&lt;/b&gt; NAiS&lt;p&gt;WITH HIGH SURGE VOLTAGE &amp; HIGH BREAKDOWN VOLTAGE&lt;br&gt;2 coil latching&lt;br&gt;Source: http://www.mew-europe.com/..  en_ds_61022_0001.pdf</description>
 <wire x1="-7.4" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="51"/>
 <wire x1="7.4" y1="3.6" x2="7.4" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="7.4" y1="-3.6" x2="-7.4" y2="-3.6" width="0.2032" layer="51"/>
 <wire x1="-7.4" y1="-3.6" x2="-7.4" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-5.495" y1="3.6" x2="-2.125" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="7.4" y1="-3.6" x2="5.3" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.3" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-2.125" y1="-3.6" x2="-5.495" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-2.76" y1="-3.6" x2="-4.86" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-4.86" y1="3.6" x2="-2.76" y2="3.6" width="0.2032" layer="21"/>
 <smd name="1" x="-6.35" y="-3.62" dx="1" dy="3.16" layer="1"/>
 <smd name="3" x="-1.27" y="-3.62" dx="1" dy="3.16" layer="1"/>
 <smd name="4" x="1.27" y="-3.62" dx="1" dy="3.16" layer="1"/>
 <smd name="5" x="3.81" y="-3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="8" x="3.81" y="3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="9" x="1.27" y="3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="10" x="-1.27" y="3.62" dx="1" dy="3.16" layer="1"/>
-<smd name="12" x="-6.35" y="3.62" dx="1" dy="3.16" layer="1"/>
-<text x="-7.62" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-6.985" y1="-1.27" x2="-6.35" y2="1.27" layer="21"/>
+<smd name="8" x="3.81" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="9" x="1.27" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="10" x="-1.27" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="12" x="-6.35" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<smd name="6" x="6.35" y="-3.62" dx="1" dy="3.16" layer="1"/>
+<smd name="7" x="6.35" y="3.62" dx="1" dy="3.16" layer="1" rot="R180"/>
+<text x="-7.62" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.715" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.985" y1="-1.905" x2="-6.35" y2="1.905" layer="21"/>
 </package>
-<package name="TXD2SS">
-<description>&lt;b&gt;HIGH INSULATION RELAYS&lt;/b&gt; NAiS&lt;p&gt;
-Conforming to the supplementary insulation class of EN Standards (EN41003)&lt;br&gt;
-Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf</description>
+<package name="TX2SS-L2">
+<description>&lt;b&gt;2 AMP. HIGH CAPACITY RELAY&lt;/b&gt; NAiS&lt;p&gt;
+WITH HIGH SURGE VOLTAGE &amp; HIGH BREAKDOWN VOLTAGE&lt;br&gt;
+2 coil latching&lt;br&gt;
+Source: http://www.mew-europe.com/..  en_ds_61022_0001.pdf</description>
 <wire x1="-7.4" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="51"/>
 <wire x1="7.4" y1="3.6" x2="7.4" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="7.4" y1="-3.6" x2="-7.4" y2="-3.6" width="0.2032" layer="51"/>
 <wire x1="-7.4" y1="-3.6" x2="-7.4" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-5.495" y1="3.6" x2="-2.125" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="7.4" y1="-3.6" x2="5.3" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.3" y1="3.6" x2="7.4" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-2.125" y1="-3.6" x2="-5.495" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-2.76" y1="-3.6" x2="-4.86" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-4.86" y1="3.6" x2="-2.76" y2="3.6" width="0.2032" layer="21"/>
 <smd name="1" x="-6.35" y="-3.12" dx="1" dy="2.16" layer="1"/>
 <smd name="3" x="-1.27" y="-3.12" dx="1" dy="2.16" layer="1"/>
 <smd name="4" x="1.27" y="-3.12" dx="1" dy="2.16" layer="1"/>
 <smd name="5" x="3.81" y="-3.12" dx="1" dy="2.16" layer="1"/>
-<smd name="8" x="3.81" y="3.12" dx="1" dy="2.16" layer="1"/>
-<smd name="9" x="1.27" y="3.12" dx="1" dy="2.16" layer="1"/>
-<smd name="10" x="-1.27" y="3.12" dx="1" dy="2.16" layer="1"/>
-<smd name="12" x="-6.35" y="3.12" dx="1" dy="2.16" layer="1"/>
-<text x="-7.62" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-6.985" y1="-1.27" x2="-6.35" y2="1.27" layer="21"/>
+<smd name="8" x="3.81" y="3.12" dx="1" dy="2.16" layer="1" rot="R180"/>
+<smd name="9" x="1.27" y="3.12" dx="1" dy="2.16" layer="1" rot="R180"/>
+<smd name="10" x="-1.27" y="3.12" dx="1" dy="2.16" layer="1" rot="R180"/>
+<smd name="12" x="-6.35" y="3.12" dx="1" dy="2.16" layer="1" rot="R180"/>
+<smd name="6" x="6.35" y="-3.12" dx="1" dy="2.16" layer="1"/>
+<smd name="7" x="6.35" y="3.12" dx="1" dy="2.16" layer="1" rot="R180"/>
+<text x="-7.62" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.715" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.985" y1="-1.905" x2="-6.35" y2="1.905" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="K+-">
-<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="2.667" x2="-0.508" y2="2.667" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="2.921" x2="-0.762" y2="2.413" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-2.667" x2="-0.508" y2="-2.667" width="0.1524" layer="94"/>
-<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
-<pin name="-" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="+" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="U">
 <wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
@@ -20205,715 +20196,78 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf</description>
 <pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="K+-S">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="4.318" y1="2.159" x2="4.826" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="2.413" x2="4.572" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="-2.159" x2="4.826" y2="-2.159" width="0.1524" layer="94"/>
+<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
+<text x="4.318" y="-0.508" size="1.27" layer="94">S</text>
+<pin name="-" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="K+-R">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="4.318" y1="2.159" x2="4.826" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="2.413" x2="4.572" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="-2.159" x2="4.826" y2="-2.159" width="0.1524" layer="94"/>
+<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
+<text x="4.318" y="-0.508" size="1.27" layer="94">R</text>
+<pin name="-" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TX?-*" prefix="K">
-<description>&lt;b&gt;TX Relais&lt;/b&gt; NAiS&lt;p&gt;
+<deviceset name="TX2?-L2-*" prefix="K">
+<description>&lt;b&gt;TX Relay 2 coil latching&lt;/b&gt; NAiS&lt;p&gt;
 &lt;hr&gt;
-TX-D RELAYS HIGH INSULATION&lt;br&gt;
-Conforming to the supplementary insulation class of EN Standards (EN41003)&lt;br&gt;
-Source: http://www.mew-europe.com/..  en_ds_61022_0007.pdf
+2 AMP. HIGH CAPACITY RELAY WITH HIGH SURGE VOLTAGE &amp; HIGH BREAKDOWN VOLTAGE&lt;br&gt;
+Source: http://www.mew-europe.com/..  en_ds_61022_0001.pdf
 &lt;hr&gt;
-TX-S RELAYS SMALL POLARIZED RELAY WITH HIGH SENSITIVITY 50mW&lt;br&gt;
+TX-S
+SMALL POLARIZED WITH HIGH SENSITIVITY 50mW
 Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <gates>
-<gate name="_" symbol="K+-" x="-7.62" y="0" addlevel="must"/>
-<gate name="G$1" symbol="U" x="10.16" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="G$2" symbol="U" x="10.16" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="S" symbol="K+-S" x="-12.7" y="7.62" addlevel="must" swaplevel="1"/>
+<gate name="R" symbol="K+-R" x="-12.7" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="1" symbol="U" x="10.16" y="7.62" addlevel="always" swaplevel="2"/>
+<gate name="2" symbol="U" x="10.16" y="-7.62" addlevel="always" swaplevel="2"/>
 </gates>
 <devices>
-<device name="D2" package="TXD2">
+<device name="" package="TX2-L2">
 <connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9522" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9523" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9524" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2-5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9525" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SA" package="TXD2SA">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SA-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9526" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXD2SA-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0176" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SA-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9531" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SA-5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9532" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SA-6V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9534" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SL" package="TXD2SL">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXD2SL-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0248" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SL-4.5V-X" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6056" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SS" package="TXD2SS">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SS-12V-Z" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9535" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SS-24V-Z" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9536" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXD2SS-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0320" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXD2SS-5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0326" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2-L" package="TXD2">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXD2-L-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0103" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SA-L" package="TXD2SA">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SL-L" package="TXD2SL">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SL-L-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="15P9956" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SL-L-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="15P9958" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXD2SL-L-5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="15P9960" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SS-L" package="TXD2SS">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2-2M" package="TXD2">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SA-2M" package="TXD2SA">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SL-2M" package="TXD2SL">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D2SS-2M" package="TXD2SS">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="6"/>
+<connect gate="R" pin="-" pad="7"/>
+<connect gate="S" pin="+" pad="1"/>
+<connect gate="S" pin="-" pad="12"/>
 </connects>
 <technologies>
 <technology name="1.5V">
@@ -20924,33 +20278,33 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 </technology>
 <technology name="12V">
 <attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXD2SS-2M-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0296" constant="no"/>
+<attribute name="MPN" value="TX2-L2-12V" constant="no"/>
+<attribute name="OC_FARNELL" value="1124060" constant="no"/>
+<attribute name="OC_NEWARK" value="64K3213" constant="no"/>
 </technology>
 <technology name="24V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="MPN" value="TX2-L2-24V" constant="no"/>
+<attribute name="OC_FARNELL" value="1124061" constant="no"/>
+<attribute name="OC_NEWARK" value="31M0467" constant="no"/>
 </technology>
 <technology name="3V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="TX2-L2-3V-1" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="12N3980" constant="no"/>
 </technology>
 <technology name="4.5V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="TX2-L2-4.5V" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9981" constant="no"/>
 </technology>
 <technology name="5V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="MPN" value="TX2-L2-5V" constant="no"/>
+<attribute name="OC_FARNELL" value="625826" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9982" constant="no"/>
 </technology>
 <technology name="6V">
 <attribute name="MF" value="" constant="no"/>
@@ -20960,22 +20314,24 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 </technology>
 <technology name="9V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MPN" value="TX2-L2-9V" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9984" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="S2" package="TXD2">
+<device name="SA" package="TX2SA-L2">
 <connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="1"/>
+<connect gate="R" pin="-" pad="6"/>
+<connect gate="S" pin="+" pad="12"/>
+<connect gate="S" pin="-" pad="7"/>
 </connects>
 <technologies>
 <technology name="1.5V">
@@ -20985,152 +20341,156 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9539" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9540" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9541" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="1608335" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9542" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-6V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9543" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6058" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S2-L" package="TXD2">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-L-1.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3844" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-L-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3845" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-L-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3846" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-L-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="15P9962" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-L-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="15P9963" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2-L-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3848" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S2SA-" package="TXD2SA">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-1.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6059" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="1231846" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9545" constant="no"/>
-</technology>
-<technology name="24V">
 <attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXS2SA-24V" constant="no"/>
+<attribute name="MPN" value="TX2SA-L2-12V" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11C0345" constant="no"/>
+<attribute name="OC_NEWARK" value="92F1610" constant="no"/>
+</technology>
+<technology name="24V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SA-L2-24V-1" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="12N3986" constant="no"/>
 </technology>
 <technology name="3V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-3V" constant="no"/>
+<attribute name="MPN" value="TX2SA-L2-3V" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6066" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9991" constant="no"/>
 </technology>
 <technology name="4.5V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-4.5V" constant="no"/>
+<attribute name="MPN" value="TX2SA-L2-4.5V" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9550" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9993" constant="no"/>
+</technology>
+<technology name="5V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SA-L2-5V" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9995" constant="no"/>
+</technology>
+<technology name="6V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SA-L2-6V-X" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="13P9578" constant="no"/>
+</technology>
+<technology name="9V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SL" package="TX2SL-L2">
+<connects>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="1"/>
+<connect gate="R" pin="-" pad="6"/>
+<connect gate="S" pin="+" pad="12"/>
+<connect gate="S" pin="-" pad="7"/>
+</connects>
+<technologies>
+<technology name="1.5V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="12V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="24V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="3V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4.5V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SL-L2-4.5V" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="15P9998" constant="no"/>
+</technology>
+<technology name="5V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SL-L2-5V" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="16P0001" constant="no"/>
+</technology>
+<technology name="6V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="9V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SL-L2-9V-Z" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="16P0002" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SS" package="TX2SS-L2">
+<connects>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="1"/>
+<connect gate="R" pin="-" pad="6"/>
+<connect gate="S" pin="+" pad="12"/>
+<connect gate="S" pin="-" pad="7"/>
+</connects>
+<technologies>
+<technology name="1.5V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="12V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="24V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="3V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="4.5V">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="5V">
 <attribute name="MF" value="" constant="no"/>
@@ -21140,59 +20500,61 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 </technology>
 <technology name="6V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-6V" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9552" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="9V">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="TXS2SA-9V" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="TX2SS-L2-9V" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="97H8371" constant="no"/>
+<attribute name="OC_NEWARK" value="16P0003" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="S2SL-" package="TXD2SL">
+<device name="S2SA" package="TX2SA-L2">
 <connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="1"/>
+<connect gate="R" pin="-" pad="6"/>
+<connect gate="S" pin="+" pad="12"/>
+<connect gate="S" pin="-" pad="7"/>
 </connects>
 <technologies>
 <technology name="1.5V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-1.5V" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6074" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="12V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-12V" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6077" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="24V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-24V" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6081" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="3V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-3V-Z" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9555" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="4.5V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-4.5V" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9556" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="5V">
 <attribute name="MF" value="" constant="no"/>
@@ -21202,263 +20564,59 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 </technology>
 <technology name="6V">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-6V" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6087" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 <technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6090" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S2SS-" package="TXD2SS">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="1"/>
-<connect gate="_" pin="-" pad="12"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-1.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6094" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9561" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-24V-Z" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9563" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-3V-Z" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9564" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="13P9565" constant="no"/>
-</technology>
-<technology name="5V">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-6V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6103" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11N6106" constant="no"/>
-</technology>
 </technologies>
 </device>
-<device name="S2SA-L-" package="TXD2SA">
+<device name="S2SL" package="TX2SL-L2">
 <connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="1"/>
+<connect gate="R" pin="-" pad="6"/>
+<connect gate="S" pin="+" pad="12"/>
+<connect gate="S" pin="-" pad="7"/>
 </connects>
 <technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-1.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3853" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3856" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3859" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3862" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="15P9968" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3867" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-6V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3870" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SA-L-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3873" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S2SL-L" package="TXD2SL">
-<connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-1.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3892" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3895" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3898" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3902" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3905" constant="no"/>
-</technology>
-<technology name="5V">
+<technology name="">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-6V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3908" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SL-L-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3911" constant="no"/>
-</technology>
 </technologies>
 </device>
-<device name="S2SS-L" package="TXD2SS">
+<device name="S2SS" package="TX2SS-L2">
 <connects>
-<connect gate="G$1" pin="O" pad="3"/>
-<connect gate="G$1" pin="P" pad="4"/>
-<connect gate="G$1" pin="S" pad="5"/>
-<connect gate="G$2" pin="O" pad="10"/>
-<connect gate="G$2" pin="P" pad="9"/>
-<connect gate="G$2" pin="S" pad="8"/>
-<connect gate="_" pin="+" pad="12"/>
-<connect gate="_" pin="-" pad="1"/>
+<connect gate="1" pin="O" pad="3"/>
+<connect gate="1" pin="P" pad="4"/>
+<connect gate="1" pin="S" pad="5"/>
+<connect gate="2" pin="O" pad="10"/>
+<connect gate="2" pin="P" pad="9"/>
+<connect gate="2" pin="S" pad="8"/>
+<connect gate="R" pin="+" pad="1"/>
+<connect gate="R" pin="-" pad="6"/>
+<connect gate="S" pin="+" pad="12"/>
+<connect gate="S" pin="-" pad="7"/>
 </connects>
 <technologies>
-<technology name="1.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-1.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3933" constant="no"/>
-</technology>
-<technology name="12V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-12V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3936" constant="no"/>
-</technology>
-<technology name="24V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-24V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3939" constant="no"/>
-</technology>
-<technology name="3V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-3V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3942" constant="no"/>
-</technology>
-<technology name="4.5V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-4.5V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3945" constant="no"/>
-</technology>
-<technology name="5V">
+<technology name="">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="6V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-6V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3948" constant="no"/>
-</technology>
-<technology name="9V">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="TXS2SS-L-9V" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="12N3951" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23033,26 +22191,25 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 <part name="R2" library="resistor" deviceset="R-EU_" device="M2012" value="1"/>
 <part name="D2" library="semicon-smd-ipc" deviceset="D-" device="A1-C3" value="PMBD914"/>
 <part name="5-12V" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
-<part name="5-12V1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="K1" library="relay" deviceset="TX?-*" device="D2-2M" technology="12V" value="EC2-12SNU"/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="adafruit" deviceset="EVQQ2" device="" value="T1"/>
 <part name="B1" library="rectifier" deviceset="RECTIFIER-" device="S40"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="175TMP-0810" value="470µF 16V"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M04" device="SCREW"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="SCREW"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
-<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS123LT1G" value="2N7002CK"/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="M2012" value="100"/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="M2012" value="100"/>
+<part name="K2" library="relay" deviceset="TX2?-L2-*" device="" technology="12V" value="EC2-12TNU"/>
+<part name="5-12V1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="2N7002CK"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="2N7002CK"/>
+<part name="D3" library="semicon-smd-ipc" deviceset="D-" device="A1-C3" value="PMBD914"/>
+<part name="D4" library="semicon-smd-ipc" deviceset="D-" device="A1-C3" value="PMBD914"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="5-12V2" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
 </parts>
 <sheets>
 <sheet>
@@ -23104,66 +22261,14 @@ Spannungsteiler </text>
 <instance part="R2" gate="G$1" x="12.7" y="22.86" rot="R180"/>
 <instance part="D2" gate="G$1" x="254" y="58.42" rot="R90"/>
 <instance part="5-12V" gate="G$1" x="43.18" y="50.8"/>
-<instance part="5-12V1" gate="G$1" x="281.94" y="48.26" smashed="yes">
-<attribute name="VALUE" x="280.924" y="51.816" size="1.778" layer="96"/>
-</instance>
-<instance part="GND3" gate="1" x="281.94" y="-15.24" smashed="yes">
-<attribute name="VALUE" x="279.4" y="-17.78" size="1.778" layer="96"/>
-</instance>
-<instance part="K1" gate="_" x="279.4" y="12.7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="274.32" y="16.891" size="1.778" layer="96"/>
-<attribute name="PART" x="281.94" y="10.16" size="1.778" layer="95"/>
-</instance>
-<instance part="K1" gate="G$1" x="312.42" y="17.78" smashed="yes">
-<attribute name="PART" x="314.96" y="17.78" size="1.778" layer="95"/>
-</instance>
-<instance part="K1" gate="G$2" x="312.42" y="38.1" smashed="yes">
-<attribute name="PART" x="314.96" y="38.1" size="1.778" layer="95"/>
-</instance>
-<instance part="GND4" gate="1" x="312.42" y="10.16" smashed="yes">
-<attribute name="VALUE" x="309.88" y="7.62" size="1.778" layer="96"/>
-</instance>
-<instance part="GND5" gate="1" x="312.42" y="30.48" smashed="yes">
-<attribute name="VALUE" x="309.88" y="27.94" size="1.778" layer="96"/>
-</instance>
 <instance part="U$1" gate="G$1" x="264.16" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="266.7" y="77.47" size="1.778" layer="95"/>
 <attribute name="VALUE" x="267.335" y="74.93" size="1.778" layer="96"/>
 </instance>
 <instance part="B1" gate="G$1" x="30.48" y="22.86"/>
-<instance part="R6" gate="G$1" x="259.08" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="257.5814" y="-6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="262.382" y="-6.35" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="Q3" gate="G$1" x="269.24" y="5.08" smashed="yes">
-<attribute name="NAME" x="270.51" y="7.62" size="1.778" layer="95"/>
-<attribute name="VALUE" x="257.81" y="7.62" size="1.778" layer="96"/>
-</instance>
-<instance part="Q1" gate="G$1" x="292.1" y="5.08" smashed="yes">
-<attribute name="NAME" x="288.29" y="8.89" size="1.778" layer="95"/>
-<attribute name="VALUE" x="293.37" y="8.89" size="1.778" layer="96"/>
-</instance>
 <instance part="C7" gate="G$1" x="48.26" y="25.4"/>
 <instance part="JP2" gate="G$1" x="0" y="22.86"/>
 <instance part="JP3" gate="G$1" x="353.06" y="33.02" rot="R180"/>
-<instance part="R4" gate="G$1" x="259.08" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="257.5814" y="24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="262.382" y="24.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="Q2" gate="G$1" x="269.24" y="35.56" smashed="yes">
-<attribute name="NAME" x="270.51" y="38.1" size="1.778" layer="95"/>
-<attribute name="VALUE" x="257.81" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="Q4" gate="G$1" x="292.1" y="35.56" smashed="yes">
-<attribute name="NAME" x="288.29" y="39.37" size="1.778" layer="95"/>
-<attribute name="VALUE" x="293.37" y="39.37" size="1.778" layer="96"/>
-</instance>
-<instance part="GND8" gate="1" x="259.08" y="17.78" smashed="yes">
-<attribute name="VALUE" x="256.54" y="15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="GND10" gate="1" x="259.08" y="-15.24" smashed="yes">
-<attribute name="VALUE" x="256.54" y="-17.78" size="1.778" layer="96"/>
-</instance>
 <instance part="R8" gate="G$1" x="236.22" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="240.03" y="31.5214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="240.03" y="36.322" size="1.778" layer="96" rot="R180"/>
@@ -23172,6 +22277,23 @@ Spannungsteiler </text>
 <attribute name="NAME" x="240.03" y="28.9814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="240.03" y="33.782" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="K2" gate="S" x="266.7" y="27.94"/>
+<instance part="K2" gate="R" x="289.56" y="27.94"/>
+<instance part="K2" gate="1" x="312.42" y="38.1"/>
+<instance part="K2" gate="2" x="312.42" y="17.78"/>
+<instance part="5-12V1" gate="G$1" x="276.86" y="43.18"/>
+<instance part="GND3" gate="1" x="274.32" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="271.78" y="-10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="Q1" gate="G$1" x="266.7" y="12.7"/>
+<instance part="Q2" gate="G$1" x="289.56" y="12.7"/>
+<instance part="D3" gate="G$1" x="259.08" y="27.94" rot="R90"/>
+<instance part="D4" gate="G$1" x="281.94" y="27.94" rot="R90"/>
+<instance part="R4" gate="G$1" x="256.54" y="5.08" rot="R90"/>
+<instance part="R5" gate="G$1" x="279.4" y="5.08" rot="R90"/>
+<instance part="GND4" gate="1" x="320.04" y="38.1"/>
+<instance part="GND5" gate="1" x="320.04" y="17.78"/>
+<instance part="5-12V2" gate="G$1" x="304.8" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -23277,36 +22399,37 @@ Spannungsteiler </text>
 <pinref part="JP3" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="269.24" y1="0" x2="269.24" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="-10.16" x2="281.94" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="-10.16" x2="292.1" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="-10.16" x2="292.1" y2="0" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="281.94" y1="-12.7" x2="281.94" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="281.94" y="-10.16"/>
-<junction x="281.94" y="-10.16"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="274.32" y1="-5.08" x2="274.32" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="K1" gate="G$1" pin="P"/>
-<wire x1="312.42" y1="12.7" x2="312.42" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="K1" gate="G$2" pin="P"/>
-<wire x1="312.42" y1="33.02" x2="312.42" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="266.7" y1="7.62" x2="266.7" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="274.32" y1="-2.54" x2="279.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="-2.54" x2="289.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-2.54" x2="289.56" y2="7.62" width="0.1524" layer="91"/>
+<junction x="274.32" y="-2.54"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="20.32" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="0" x2="256.54" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-2.54" x2="266.7" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="274.32" y="-2.54"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="-2.54" x2="274.32" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="0" x2="279.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="-2.54" x2="274.32" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="266.7" y="-2.54"/>
+<junction x="279.4" y="-2.54"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="259.08" y1="-12.7" x2="259.08" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="K2" gate="2" pin="O"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="317.5" y1="22.86" x2="320.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="22.86" x2="320.04" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="K2" gate="1" pin="O"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="317.5" y1="43.18" x2="320.04" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="43.18" x2="320.04" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DC_5-12V" class="0">
@@ -23341,15 +22464,33 @@ Spannungsteiler </text>
 <pinref part="JP2" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="269.24" y1="40.64" x2="269.24" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="292.1" y1="40.64" x2="292.1" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="269.24" y1="43.18" x2="281.94" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="5-12V1" gate="G$1" pin="VCC"/>
-<wire x1="281.94" y1="43.18" x2="292.1" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="48.26" x2="281.94" y2="43.18" width="0.1524" layer="91"/>
-<junction x="281.94" y="43.18"/>
+<wire x1="276.86" y1="43.18" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="K2" gate="S" pin="+"/>
+<wire x1="266.7" y1="33.02" x2="266.7" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="K2" gate="R" pin="+"/>
+<wire x1="266.7" y1="38.1" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="38.1" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="38.1" x2="289.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="38.1" x2="289.56" y2="33.02" width="0.1524" layer="91"/>
+<junction x="276.86" y="38.1"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="259.08" y1="30.48" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="38.1" x2="266.7" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="281.94" y1="30.48" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
+<junction x="266.7" y="38.1"/>
+<junction x="281.94" y="38.1"/>
+</segment>
+<segment>
+<pinref part="5-12V2" gate="G$1" pin="VCC"/>
+<wire x1="304.8" y1="45.72" x2="304.8" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="K2" gate="1" pin="S"/>
+<wire x1="307.34" y1="43.18" x2="304.8" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="K2" gate="2" pin="S"/>
+<wire x1="307.34" y1="22.86" x2="304.8" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="22.86" x2="304.8" y2="43.18" width="0.1524" layer="91"/>
+<junction x="304.8" y="43.18"/>
 </segment>
 </net>
 <net name="VCC-3.3V" class="0">
@@ -23588,14 +22729,14 @@ Spannungsteiler </text>
 <pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="K1" gate="G$1" pin="S"/>
-<wire x1="307.34" y1="22.86" x2="306.07" y2="22.86" width="0.1524" layer="91"/>
-<label x="306.07" y="22.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="K2" gate="1" pin="P"/>
+<wire x1="312.42" y1="35.56" x2="312.42" y2="33.02" width="0.1524" layer="91"/>
+<label x="312.42" y="33.02" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K1" gate="G$2" pin="S"/>
-<wire x1="307.34" y1="43.18" x2="306.07" y2="43.18" width="0.1524" layer="91"/>
-<label x="306.07" y="43.18" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="K2" gate="2" pin="P"/>
+<wire x1="312.42" y1="15.24" x2="312.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="312.42" y="12.7" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="AC_5-12V0" class="0">
@@ -23613,18 +22754,13 @@ Spannungsteiler </text>
 <wire x1="241.3" y1="33.02" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="279.4" y="5.08" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<wire x1="284.48" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-</segment>
-<segment>
-<wire x1="261.62" y1="35.56" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
-<label x="256.54" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="259.08" y1="12.7" x2="256.54" y2="12.7" width="0.1524" layer="91"/>
+<label x="254" y="12.7" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="33.02" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
-<junction x="259.08" y="35.56"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="256.54" y1="12.7" x2="254" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="10.16" x2="256.54" y2="12.7" width="0.1524" layer="91"/>
+<junction x="256.54" y="12.7"/>
 </segment>
 </net>
 <net name="RELAY1" class="0">
@@ -23634,18 +22770,13 @@ Spannungsteiler </text>
 <wire x1="241.3" y1="30.48" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="261.62" y1="5.08" x2="259.08" y2="5.08" width="0.1524" layer="91"/>
-<label x="256.54" y="5.08" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="5.08" x2="256.54" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="2.54" x2="259.08" y2="5.08" width="0.1524" layer="91"/>
-<junction x="259.08" y="5.08"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-</segment>
-<segment>
-<label x="279.4" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<wire x1="284.48" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="281.94" y1="12.7" x2="279.4" y2="12.7" width="0.1524" layer="91"/>
+<label x="276.86" y="12.7" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="12.7" x2="276.86" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="10.16" x2="279.4" y2="12.7" width="0.1524" layer="91"/>
+<junction x="279.4" y="12.7"/>
 </segment>
 </net>
 <net name="BUTTON" class="0">
@@ -23673,28 +22804,6 @@ Spannungsteiler </text>
 <wire x1="259.08" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="71.12" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
 <junction x="256.54" y="68.58"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="269.24" y1="10.16" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="K1" gate="_" pin="-"/>
-<wire x1="274.32" y1="12.7" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="269.24" y1="30.48" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<junction x="269.24" y="12.7"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="292.1" y1="10.16" x2="292.1" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="K1" gate="_" pin="+"/>
-<wire x1="284.48" y1="12.7" x2="292.1" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="292.1" y1="12.7" x2="292.1" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<junction x="292.1" y="12.7"/>
 </segment>
 </net>
 <net name="AC_5-12V1" class="0">
@@ -23730,6 +22839,30 @@ Spannungsteiler </text>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="U$5" gate="ZM5202" pin="(TRIAC/IO/ADC2)P13"/>
 <wire x1="228.6" y1="30.48" x2="231.14" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="K2" gate="S" pin="-"/>
+<wire x1="266.7" y1="17.78" x2="266.7" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="266.7" y1="20.32" x2="266.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="20.32" x2="259.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="20.32" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
+<junction x="266.7" y="20.32"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="K2" gate="R" pin="-"/>
+<wire x1="289.56" y1="17.78" x2="289.56" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="289.56" y1="20.32" x2="289.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="25.4" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="20.32" x2="289.56" y2="20.32" width="0.1524" layer="91"/>
+<junction x="289.56" y="20.32"/>
 </segment>
 </net>
 </nets>
