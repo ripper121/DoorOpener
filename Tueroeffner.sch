@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22193,7 +22193,7 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 <part name="5-12V" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
 <part name="U$1" library="adafruit" deviceset="EVQQ2" device="" value="T1"/>
 <part name="B1" library="rectifier" deviceset="RECTIFIER-" device="S40"/>
-<part name="C7" library="rcl" deviceset="CPOL-EU" device="175TMP-0810" value="470µF 16V"/>
+<part name="C7" library="rcl" deviceset="CPOL-EU" device="175TMP-0810" value="470µF 25V"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M04" device="SCREW"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="SCREW"/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="M2012" value="100"/>
@@ -22214,8 +22214,6 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="292.1" y="58.42" size="1.778" layer="91">H-Bridge
-Spannungsteiler </text>
 </plain>
 <instances>
 <instance part="3.3V" gate="G$1" x="86.36" y="50.8"/>
@@ -22258,7 +22256,7 @@ Spannungsteiler </text>
 </instance>
 <instance part="GND2" gate="1" x="271.78" y="58.42"/>
 <instance part="P+1" gate="VCC" x="254" y="86.36"/>
-<instance part="R2" gate="G$1" x="12.7" y="22.86" rot="R180"/>
+<instance part="R2" gate="G$1" x="10.16" y="22.86" rot="R180"/>
 <instance part="D2" gate="G$1" x="254" y="58.42" rot="R90"/>
 <instance part="5-12V" gate="G$1" x="43.18" y="50.8"/>
 <instance part="U$1" gate="G$1" x="264.16" y="71.12" smashed="yes" rot="R270">
@@ -22267,7 +22265,7 @@ Spannungsteiler </text>
 </instance>
 <instance part="B1" gate="G$1" x="30.48" y="22.86"/>
 <instance part="C7" gate="G$1" x="48.26" y="25.4"/>
-<instance part="JP2" gate="G$1" x="0" y="22.86"/>
+<instance part="JP2" gate="G$1" x="-2.54" y="22.86"/>
 <instance part="JP3" gate="G$1" x="353.06" y="33.02" rot="R180"/>
 <instance part="R8" gate="G$1" x="236.22" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="240.03" y="31.5214" size="1.778" layer="95" rot="R180"/>
@@ -22320,8 +22318,8 @@ Spannungsteiler </text>
 <junction x="55.88" y="7.62"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="7.62" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
-<label x="-5.08" y="25.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="2.54" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<label x="-7.62" y="25.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="22.86" y1="25.4" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="-"/>
 <wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
@@ -22448,10 +22446,10 @@ Spannungsteiler </text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="55.88" y1="27.94" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <junction x="55.88" y="38.1"/>
-<wire x1="5.08" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="27.94" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<label x="-5.08" y="27.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<label x="-7.62" y="27.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="38.1" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="50.8" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
@@ -22742,8 +22740,8 @@ Spannungsteiler </text>
 <net name="AC_5-12V0" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="22.86" x2="7.62" y2="22.86" width="0.1524" layer="91"/>
-<label x="-5.08" y="22.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="2.54" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<label x="-7.62" y="22.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -22808,20 +22806,10 @@ Spannungsteiler </text>
 </net>
 <net name="AC_5-12V1" class="0">
 <segment>
-<wire x1="5.08" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-<label x="-5.08" y="20.32" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<wire x1="20.32" y1="20.32" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="B1" gate="G$1" pin="AC2"/>
-<wire x1="20.32" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="15.24" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<label x="-7.62" y="20.32" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="22.86" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="AC1"/>
 <wire x1="20.32" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
@@ -22865,6 +22853,16 @@ Spannungsteiler </text>
 <junction x="289.56" y="20.32"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="AC2"/>
+<wire x1="17.78" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="15.24" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -22900,10 +22898,4 @@ Spannungsteiler </text>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
