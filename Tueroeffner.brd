@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -157,9 +157,9 @@
 <wire x1="-1.5875" y1="21.58" x2="-1.5875" y2="-1.27" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="0" y2="20" x3="-2" y3="10" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-4" textsize="1.778" layer="47"/>
-<text x="36.5125" y="20.716875" size="0.6096" layer="1" font="vector" ratio="15" rot="R180" align="bottom-center">Zwave-Europe (GER) 2016
+<text x="35.956875" y="20.6375" size="0.6096" layer="1" font="vector" ratio="15" rot="R180" align="bottom-center">Zwave-Europe 2016
 S.Schreiter
-DoorOpener</text>
+DoorOpener v1.0</text>
 <wire x1="46.66" y1="-1.27" x2="46.66" y2="21.59" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -2757,14 +2757,12 @@ Cream on SMD OFF.&lt;br&gt;
 new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="B1,27">
+<package name="TP14R">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
-<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
-<smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
-<text x="-0.635" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+<smd name="TP" x="0" y="0" dx="1.4" dy="1.4" layer="1" roundness="100" cream="no"/>
+<text x="-0.7" y="0.7501" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
 </packages>
 </library>
@@ -3122,42 +3120,42 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="22.463125" y="15.160625" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="24.526875" y="12.938125" size="1.27" layer="27"/>
 </element>
-<element name="VC" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="12.303125" smashed="yes">
+<element name="VC" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="12.303125" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="10.398125" size="1" layer="37"/>
 <attribute name="NAME" x="16.271875" y="11.811" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="11.541125" size="0.0254" layer="27"/>
 </element>
-<element name="RX" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="10.715625" smashed="yes">
+<element name="RX" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="10.715625" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="8.810625" size="1" layer="37"/>
 <attribute name="NAME" x="16.271875" y="10.2235" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="9.953625" size="0.0254" layer="27"/>
 </element>
-<element name="TX" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="15.478125" smashed="yes">
+<element name="TX" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="15.478125" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="13.573125" size="1" layer="37"/>
 <attribute name="NAME" x="16.271875" y="15.065375" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="14.716125" size="0.0254" layer="27"/>
 </element>
-<element name="GN" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="17.065625" smashed="yes">
+<element name="GN" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="17.065625" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="15.160625" size="1" layer="37"/>
 <attribute name="NAME" x="16.1925" y="16.652875" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="16.303625" size="0.0254" layer="27"/>
 </element>
-<element name="MO" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="9.128125" smashed="yes">
+<element name="MO" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="9.128125" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="7.223125" size="1" layer="37"/>
 <attribute name="NAME" x="16.113125" y="8.636" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="8.366125" size="0.0254" layer="27"/>
 </element>
-<element name="MI" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="5.953125" smashed="yes">
+<element name="MI" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="5.953125" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="4.048125" size="1" layer="37"/>
 <attribute name="NAME" x="16.430625" y="5.540375" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="5.191125" size="0.0254" layer="27"/>
 </element>
-<element name="RS" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="13.890625" smashed="yes">
+<element name="RS" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="13.890625" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="11.985625" size="1" layer="37"/>
 <attribute name="NAME" x="16.271875" y="13.55725" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="13.128625" size="0.0254" layer="27"/>
 </element>
-<element name="SK" library="testpad" package="B1,27" value="TPB1,27" x="18.494375" y="7.540625" smashed="yes">
+<element name="SK" library="testpad" package="TP14R" value="TPTP14R" x="18.494375" y="7.540625" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="17.859375" y="5.635625" size="1" layer="37"/>
 <attribute name="NAME" x="16.1925" y="7.0485" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="6.778625" size="0.0254" layer="27"/>
@@ -3857,6 +3855,7 @@ Covered vias can be set in Masks (Limit).
 <approved hash="18,29,87137fbdf94107aa"/>
 <approved hash="18,29,86bbf8d8698b643d"/>
 <approved hash="3,1,94e9e7edffae8caa"/>
+<approved hash="3,1,07a516f13ea12ff5"/>
 <approved hash="3,1,af8641b841f8afc6"/>
 <approved hash="18,29,46e30c4e3975019c"/>
 <approved hash="18,29,68451d6befa89008"/>
