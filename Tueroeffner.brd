@@ -2979,7 +2979,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="8.81" y="11.573125" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.064375" y="13.795625" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C3" library="eagle-ltspice" package="C2012" value="10µF" x="13.6525" y="12.54125" smashed="yes" rot="MR90">
+<element name="C3" library="eagle-ltspice" package="C2012" value="100nF" x="13.6525" y="12.54125" smashed="yes" rot="MR90">
 <attribute name="SPICEMODEL" value="NONE" x="13.6525" y="12.54125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="13.6525" y="12.54125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="14.843125" y="12.3825" size="0.8128" layer="26" rot="MR90"/>
@@ -2991,7 +2991,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="32.22625" y="7.858125" size="0.8128" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="32.86125" y="8.41375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C5" library="rcl" package="C0805" value="0.1µF" x="7.699375" y="17.859375" smashed="yes" rot="MR90">
+<element name="C5" library="rcl" package="C0805" value="100nF" x="7.699375" y="17.859375" smashed="yes" rot="MR90">
 <attribute name="NAME" x="8.255" y="20.16125" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="5.159375" y="16.589375" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -3001,7 +3001,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="4.92125" y="13.81125" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="9.8425" y="13.81125" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="SMAJ20A" x="13.033125" y="3.09625" smashed="yes" rot="R270">
+<element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="SMAJ24A" x="13.033125" y="3.09625" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.7635" y="3.239125" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="14.684125" y="2.84225" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -3009,7 +3009,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="25.638125" y="17.4625" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="24.685625" y="14.049375" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="IC1" library="burr-brown" package="SOT223" value="NCV4264-2ST33T3G" x="11.414375" y="16.11375" smashed="yes" rot="R270">
+<element name="IC1" library="burr-brown" package="SOT223" value="IFX25001MEV33HTSA1" x="11.414375" y="16.11375" smashed="yes" rot="R270">
 <attribute name="MPN" value="REG1118-2.85/2K5G4" x="11.414375" y="16.11375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="14M2185" x="11.414375" y="16.11375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="11.414375" y="16.11375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3058,7 +3058,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="8.5725" y="2.06375" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="8.5725" y="5.87375" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R32" library="resistor" package="M2012" value="82" x="9.36625" y="12.54125" smashed="yes" rot="MR90">
+<element name="R32" library="resistor" package="M2012" value="330" x="9.36625" y="12.54125" smashed="yes" rot="MR90">
 <attribute name="NAME" x="10.239375" y="14.366875" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="6.82625" y="11.27125" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -3164,7 +3164,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="NAME" x="16.1925" y="7.0485" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.859375" y="6.778625" size="0.0254" layer="27"/>
 </element>
-<element name="C1" library="eagle-ltspice" package="C2012" value="10µF" x="11.43" y="12.54125" smashed="yes" rot="MR90">
+<element name="C1" library="eagle-ltspice" package="C2012" value="100nF" x="11.43" y="12.54125" smashed="yes" rot="MR90">
 <attribute name="SPICEMODEL" value="NONE" x="11.43" y="12.54125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="11.43" y="12.54125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="12.065" y="14.2875" size="0.8128" layer="26" rot="MR0"/>

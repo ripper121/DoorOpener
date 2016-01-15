@@ -22795,8 +22795,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="3.3V" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-3.3V"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10µF"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="TVS" device="SMA" value="SMAJ20A"/>
-<part name="IC1" library="burr-brown" deviceset="REG1118" device="" value="NCV4264-2ST33T3G"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="TVS" device="SMA" value="SMAJ24A"/>
+<part name="IC1" library="burr-brown" deviceset="REG1118" device="" value="IFX25001MEV33HTSA1"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="Z-Antenna"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="3.3V2" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-3.3V"/>
@@ -22810,7 +22810,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="3.3V11" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-3.3V"/>
 <part name="C4" library="eagle-ltspice" deviceset="C" device="C2012" value="15pF"/>
 <part name="U$5" library="ZM5202" deviceset="ZM5202" device="ZM5202_STERN" value="ZM5202"/>
-<part name="C3" library="eagle-ltspice" deviceset="C" device="C2012" value="10µF"/>
+<part name="C3" library="eagle-ltspice" deviceset="C" device="C2012" value="100nF"/>
 <part name="C6" library="eagle-ltspice" deviceset="C" device="C2012" value="100nF"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="M2012" value="10K"/>
@@ -22819,10 +22819,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="RED"/>
-<part name="R32" library="resistor" deviceset="R-EU_" device="M2012" value="82"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="M2012" value="330"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="4.7K"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device="" value="VCC-3.3V"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="M2012" value="1"/>
@@ -22855,7 +22855,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="MI" library="testpad" deviceset="TP" device="TP14R" value="TPTP14R"/>
 <part name="RS" library="testpad" deviceset="TP" device="TP14R" value="TPTP14R"/>
 <part name="SK" library="testpad" deviceset="TP" device="TP14R" value="TPTP14R"/>
-<part name="C1" library="eagle-ltspice" deviceset="C" device="C2012" value="10µF"/>
+<part name="C1" library="eagle-ltspice" deviceset="C" device="C2012" value="100nF"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="M2012" value="180k"/>
 <part name="R7" library="resistor" deviceset="R-EU_" device="M2012" value="20k"/>
 <part name="5-12V3" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
