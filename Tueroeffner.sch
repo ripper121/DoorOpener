@@ -22860,7 +22860,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="R7" library="resistor" deviceset="R-EU_" device="M2012" value="20k"/>
 <part name="5-12V3" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VCC-5-12V"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE" value="BATTERY"/>
+<part name="C8" library="eagle-ltspice" deviceset="C" device="C2012" value="47nF"/>
+<part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23125,7 +23127,14 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <instance part="GND8" gate="1" x="66.04" y="58.42" smashed="yes">
 <attribute name="VALUE" x="63.5" y="55.88" size="0.8128" layer="96"/>
 </instance>
-<instance part="SJ1" gate="1" x="73.66" y="76.2"/>
+<instance part="SJ1" gate="1" x="78.74" y="76.2"/>
+<instance part="C8" gate="G$1" x="71.12" y="68.58" smashed="yes">
+<attribute name="NAME" x="72.644" y="68.961" size="0.8128" layer="95"/>
+<attribute name="VALUE" x="72.644" y="63.881" size="0.8128" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="71.12" y="58.42" smashed="yes">
+<attribute name="VALUE" x="68.58" y="55.88" size="0.8128" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23267,6 +23276,11 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="66.04" y1="63.5" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="60.96" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DC_5-12V" class="0">
@@ -23430,9 +23444,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="154.94" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="83.82" y="76.2" size="0.8128" layer="95" xref="yes"/>
+<label x="86.36" y="76.2" size="0.8128" layer="95" xref="yes"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="78.74" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANTENNA" class="0">
@@ -23724,9 +23738,13 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="SJ1" gate="1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="78.74" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <junction x="66.04" y="76.2"/>
+<wire x1="71.12" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="76.2" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="71.12" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<junction x="71.12" y="76.2"/>
 </segment>
 </net>
 </nets>
