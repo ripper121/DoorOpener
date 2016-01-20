@@ -1,0 +1,10 @@
+Project*.uvgui*
+Project*.uvopt
+Project*_uvopt.bak
+Project*_uvproj.bak
+Project_AU.uvproj
+Project_US.uvproj
+Project_EU.uvproj
+Project_RU.uvproj
+Project_IN.uvproj
+build_prj/
